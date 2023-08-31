@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+<body>
+    <container>
+        <h1 class="title">Generate a</h1>
+        <h1 class="title highlight">random password</h1>
+        <p style="margin-top: 8px;">Never use an insecure password again.</p>
+    </container>
+    <div id="input">
+        <button id="btGenerate" onclick="generatePasswords()">Generate passwords</button>
+    </div>
+    <div id="output">
+        <div class="option">
+            <p class="option-text" id="opt1-el" onclick="copyToClipboard(opt1El)"></p>
+        </div>
+        <div class="option">
+            <p class="option-text" id="opt2-el" onclick="copyToClipboard(opt2El)"></p>
+        </div>
+    </div>
+    <div id="custom">
+        <button id="btOptions" onclick="toggleOptions()">
+            <i class="arrow right"></i>
+            <p id = "optionTitle" class="option-labels">Options</p>
+        </button>
+    </div>
+    <div id="custom-box">
+        <div class="labels">
+            <p class="option-labels">Adjust password length:</p>
+            <p class="option-labels">Toggle numbers:</p>
+            <p class="option-labels">Toggle symbols:</p>
+        </div>
+        <div class="choices">
+            <input id="length-input" type="text"/><br>
+            <button onclick="toggleNums()" id="nums-el" class="btRadio"></button><br>
+            <button onclick="toggleSyms()" id="syms-el" class="btRadio"></button><br>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

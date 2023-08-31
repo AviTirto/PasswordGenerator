@@ -1,0 +1,149 @@
+body{
+    background-color:#1F2937;
+    padding: 115px 52px;
+    margin:0;
+}
+h1{
+    margin:0;
+}
+.title{
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.025em;
+    color: #FFFFFF;
+}
+.highlight{
+    color: #4ADF86;
+}
+p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #D5D4D8;
+    margin: 0;
+}
+#btGenerate{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #10B981;
+    color: #FFFFFF;
+    justify-content: center;
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 6px;
+}
+#input{
+    margin: 0;
+    margin-top: 50px;
+    padding:0;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #2F3E53;
+    width: 446px;
+}
+#output{
+    margin: 0;
+    padding: 0;
+    padding-top: 35px;
+    display: flex;
+}
+.option{
+    width: 211px;
+    height: 39px;
+    background: #273549;
+    border-radius: 6px;
+    padding: 0;
+    margin-right: 24px;
+    text-align: center;
+}
+.option-text{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    color: #55F991;
+    padding-top: 3px;
+}
+.arrow {
+    border: solid #D5D4D8;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+  
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border-width: 0 2px 2px 0;
+    border-color:#10B981;
+  }
+#btOptions{
+    padding:0;
+    background: transparent;
+    border:0;
+    font-family: 'Inter';
+    color: #D5D4D8;
+    display: flex;
+}
+#custom{
+    margin: 0;
+    margin-top: 30px;
+}
+#custom-box{
+    padding:0;
+    padding-left: 18px;
+    font-family: 'Inter';
+    color: #D5D4D8;
+    display: none;
+}
+.option-labels{
+    text-align: right;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    margin:0;
+    margin-bottom: 10px;
+}
+#choices{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.btRadio{
+    background-color: #10B981;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    border:0;
+    margin:0;
+    margin-bottom:8px;
+}
+#length-input{
+    background-color: #273549;
+    width: 96px;
+    height: 30px;
+    border:0;
+    border-radius: 6px;
+    margin:0;
+    margin-bottom:8px;
+    text-align: center;
+    color: #D5D4D8;
+}
+.labels{
+    padding:0;
+    padding-top: 3px;
+    margin:0;
+    margin-right: 17px;
+}
+
+
